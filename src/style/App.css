@@ -1,0 +1,11 @@
+.App{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/michael-olsen.jpg");
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
