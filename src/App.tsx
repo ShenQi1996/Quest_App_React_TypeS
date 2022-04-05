@@ -75,7 +75,7 @@ const  App = () =>{
   return (
     <div className="App">
       <div className="appTop">
-        <h1>React Quiz</h1>
+      <h1>React Quiz</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
             <Button variant="primary" className='start' onClick={startTrivia}>Start</Button>
         ): null}
